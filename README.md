@@ -1,6 +1,6 @@
 # PR 체크리스트 생성기 (PR Checklist Builder)
 
-> 🔗 **배포 URL: _(배포 후 기재)_**
+> 🔗 **배포 URL: https://pr-checklist-maker.vercel.app/**
 
 PR 유형과 조건부 작업만 고르면 **해당 PR에 꼭 필요한 체크리스트만** Markdown으로 조립해 주는 정적 웹앱입니다.
 "지우는 템플릿"에서 "조립하는 템플릿"으로 — 기획 문서는 [PRD.md](./PRD.md)를 참고하세요.
@@ -16,7 +16,7 @@ PR 유형과 조건부 작업만 고르면 **해당 PR에 꼭 필요한 체크�
 선택 상태는 URL에 반영되므로 링크로 공유할 수 있습니다.
 
 ```
-https://<배포 URL>/?type=fix&cond=db-schema,external-api
+https://pr-checklist-maker.vercel.app/?type=fix&cond=db-schema,external-api
 ```
 
 | 파라미터 | 값 |
